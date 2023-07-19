@@ -115,7 +115,7 @@ function makeImageElement() {
   // TASK 5 kuva inputin hoitaminen
   const image = document.querySelector("#input-image");
   if (image.files.length === 0) {
-    return document.createElement("td");
+    return document.createElement("img");
   }
 
   const imageElement = document.createElement("img");
